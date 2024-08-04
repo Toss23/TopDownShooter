@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Zone
+  - Enemy
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3304442009
+    locked: 0
+  - name: Zone
+    uniqueID: 3898511319
+    locked: 0
+  - name: Bonus
+    uniqueID: 4042723243
+    locked: 0
+  - name: Bullet
+    uniqueID: 2410338931
+    locked: 0
+  - name: Unit
+    uniqueID: 1889991049
+    locked: 0
+  - name: UI
+    uniqueID: 2798136629
+    locked: 0

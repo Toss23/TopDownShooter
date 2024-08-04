@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Zone Prefabs
+  m_EditorClassIdentifier: 
+  m_GroupName: Zone Prefabs
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 7bfec01b5a52d2549ae7da861b4c77cd
+  m_SerializeEntries:
+  - m_GUID: 707a98e9fb6e544498e1fcb7e336a245
+    m_Address: ChillZonePrefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 33718bb2f8a562c4f9f4b17aac43814b
+    m_Address: DeathZonePrefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: d57633f8db39e4e4fa0b7c880c4850b4, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: e335a8286cfc4e54b8ece28e2b53e9e2, type: 2}
+    - {fileID: 11400000, guid: 464337b8625c755439dad044c1721998, type: 2}
