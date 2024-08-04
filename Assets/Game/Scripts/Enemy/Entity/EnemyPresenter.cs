@@ -15,29 +15,28 @@ public class EnemyPresenter : MonoBehaviour, IEnemyPresenter
     {
         _player = player;
         _context = context;
-
         _sprite.color = enemyVariant.Color;
         MovementStats movementStats = new MovementStats(enemyVariant.MoveSpeed, 720);
         _enemy = new Enemy(enemyVariant, new EnemyMovement(context, _rigidbody, movementStats, target), player);
-        context.AddUpdatable(_enemy);
 
         Enable();
     }
 
     private void Enable()
     {
+        _context.AddUpdatable(_enemy);
         _enemy.OnDeath += OnDeath;
     }
 
     private void Disable()
     {
+        _context.RemoveUpdatable(_enemy);
         _enemy.OnDeath -= OnDeath;
     }
 
     private void OnDeath()
     {
         Disable();
-        _context.RemoveUpdatable(_enemy);
         Destroy(gameObject);
     }
 

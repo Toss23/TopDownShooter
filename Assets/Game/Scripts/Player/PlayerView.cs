@@ -1,19 +1,9 @@
 using TMPro;
 using UnityEngine;
 
-public class PlayerView : MonoBehaviour, IPlayerView, IInitable
+public class PlayerView : MonoBehaviour, IPlayerView
 {
     [SerializeField] private TMP_Text _scoreText;
-
-    public void PreInit(IContext context)
-    {
-        
-    }
-
-    public void Init(IContext context)
-    {
-        
-    }
 
     public void SetScore(int score)
     {
