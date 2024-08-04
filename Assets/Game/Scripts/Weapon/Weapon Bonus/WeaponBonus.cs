@@ -2,8 +2,6 @@ using System;
 
 public class WeaponBonus : IUpdatable
 {
-    private const int WEAPON_LIFE_TIME = 10;
-
     public event Action OnDestroy;
 
     private WeaponVariant _weaponVariant;
@@ -12,7 +10,7 @@ public class WeaponBonus : IUpdatable
     public WeaponBonus(WeaponVariant weaponVariant)
     {
         _weaponVariant = weaponVariant;
-        _lifeTimer = WEAPON_LIFE_TIME;
+        _lifeTimer = weaponVariant.LifeTime;
     }
 
     public void AffectPlayer(Player player)
